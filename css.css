@@ -1,0 +1,88 @@
+
+*{
+    margin: 10px;
+    padding: 0px;
+}
+
+h1 {
+    font: bold 20px tahoma;
+    padding: 1%;
+    text-align: center;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+    width: 100%; /* specify the width (in order to use flex) */
+    display:-webkit-box; /* allows for the parent box(body) to 
+    take in flexible child boxes  */
+    -webkit-box-pack: center; /* arranges all child flex boxes */
+}
+
+.mainBody {
+    max-width: 1000px;  /* sets the max width of the body */
+    border: 1px solid  grey;
+    margin: 20px auto;
+    
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+}
+
+.header {
+    background:whitesmoke;
+    border: 1px solid black;
+}
+
+.nav {
+    background: whitesmoke;
+    padding: 3px;
+    text-align: center;
+}
+
+.nav li {
+    color: gray;
+    display: inline;
+    list-style: none;
+    padding: 85px;
+    font: bold 14px tahoma; 
+}
+
+.mainSection {
+    float: left;
+    width: 680px;
+    margin: 25px; /* 730 Total area section, 270px left */
+    border: 1px solid  grey;
+}
+
+.articleMainSection {
+    float: center;
+    
+}
+
+.aside {
+    float: right;
+    width: 225px;
+    padding: 0px;
+    background: ghostwhite;
+    border: 1px solid  grey;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-top: 2px solid gainsboro;
+}
+
+.line {
+    clear: both;
+    margin: 50px;
+    padding: 10px;
+    border-top: 1px solid gainsboro;
+}
+
