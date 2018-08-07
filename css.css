@@ -1,6 +1,6 @@
 
 *{
-    margin: 10px;
+    margin: 5px;
     padding: 0px;
 }
 
@@ -19,57 +19,65 @@ body {
     width: 100%; /* specify the width (in order to use flex) */
     display:-webkit-box; /* allows for the parent box(body) to 
     take in flexible child boxes  */
-    -webkit-box-pack: center; /* arranges all child flex boxes */
+    -webkit-box-pack: center; /* arranges all child flex boxes */    
 }
 
 .mainBody {
     max-width: 1000px;  /* sets the max width of the body */
-    border: 1px solid  grey;
-    margin: 20px auto;
+    margin: 10px auto;
     
     display:-webkit-box;
     -webkit-box-orient: vertical;
     -webkit-box-flex: 1;
+    
 }
 
 .header {
     background:whitesmoke;
     border: 1px solid black;
+    -webkit-border-radius: 1px;
+    text-shadow: 2px 0px 2px grey;
+    -webkit-box-shadow: 0px 0px 2px grey;
+
 }
 
 .nav {
     background: whitesmoke;
     padding: 3px;
     text-align: center;
+    -webkit-box-shadow: 0px 0px 2px grey;
+
 }
 
 .nav li {
-    color: gray;
+    color: black;
     display: inline;
     list-style: none;
     padding: 85px;
-    font: bold 14px tahoma; 
+    font: bold 14px tahoma;    
 }
 
 .mainSection {
-    float: left;
-    width: 680px;
-    margin: 25px; /* 730 Total area section, 270px left */
-    border: 1px solid  grey;
+    float: center;
+    width: 975px;
+    margin: 5px; /* 730 Total area section, 270px left */
 }
 
 .articleMainSection {
-    float: center;
-    
+    float: center; 
+}
+.uolAboutMe {
+    font-style: italic;
 }
 
-.aside {
-    float: right;
-    width: 225px;
-    padding: 0px;
-    background: ghostwhite;
-    border: 1px solid  grey;
+.skill {
+    text-align: center;
+    clear: both;
+    padding: 1px;
+    text-shadow: 0px 0px 1px grey;
+
 }
+
 
 .footer {
     clear: both;
