@@ -1,6 +1,6 @@
 
 *{
-    margin: 5px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -16,65 +16,81 @@ header, section, footer, aside, nav, article, hgroup {
 
 body {
     text-align: center;
-    width: 100%; /* specify the width (in order to use flex) */
     display:-webkit-box; /* allows for the parent box(body) to 
     take in flexible child boxes  */
     -webkit-box-pack: center; /* arranges all child flex boxes */    
+    
 }
 
 .mainBody {
-    max-width: 1000px;  /* sets the max width of the body */
     margin: 10px auto;
-    
+    width: 100%;
     display:-webkit-box;
     -webkit-box-orient: vertical;
     -webkit-box-flex: 1;
+    background-color: lightblue;
     
 }
 
 .header {
-    background:whitesmoke;
-    border: 1px solid black;
     -webkit-border-radius: 1px;
     text-shadow: 2px 0px 2px grey;
-    -webkit-box-shadow: 0px 0px 2px grey;
-
+    font: bold 88px tahoma;
+    vertical-align: middle;
+    margin: 17%;
+    
 }
+
 
 .nav {
-    background: whitesmoke;
+    background: black;
+    opacity: 50;
     padding: 3px;
+    margin: 4px;
+    width: 100%;
     text-align: center;
+    vertical-align: top;
     -webkit-box-shadow: 0px 0px 2px grey;
-
+    text-decoration: none ;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    overflow: hidden;
+   
 }
 
+
 .nav li {
-    color: black;
+    color: white;
     display: inline;
+    text-align: center;
     list-style: none;
     padding: 85px;
     font: bold 14px tahoma;    
+    text-decoration: none ;
 }
 
 .mainSection {
     float: center;
-    width: 975px;
-    margin: 5px; /* 730 Total area section, 270px left */
+    margin: 5px; /* */
+    width: 100%;
+
 }
 
 .articleMainSection {
     float: center; 
+    background-color: aquamarine;
+
 }
 .uolAboutMe {
     font-style: italic;
+
 }
 
 .skill {
     text-align: center;
-    clear: both;
     padding: 1px;
     text-shadow: 0px 0px 1px grey;
+    display: grid;
 
 }
 
@@ -89,8 +105,13 @@ body {
 
 .line {
     clear: both;
-    margin: 50px;
+    margin: 15%;
     padding: 10px;
-    border-top: 1px solid gainsboro;
+    border-top: 1px solid black;
 }
 
+.shan {
+    color: fuchsia;
+    font: bold 100px tahoma;    
+    
+}
