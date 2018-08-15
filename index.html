@@ -48,7 +48,7 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#resume">Education</a></li>   
+            <li><a class="smoothscroll" href="#education">Education</a></li>   
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -75,17 +75,17 @@
 
    </header> <!-- Header End -->
 
-
-   <!-- About Section
-   ================================================== -->
+    <!--
+    ================================================== 
+    About Section
+    ================================================== 
+    -->
    <section id="about">
 
       <div class="row">
 
          <div class="three columns">
-
             <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
-
          </div>
 
          <div class="nine columns main-col">
@@ -102,31 +102,36 @@
             In <em>2018 September 2nd</em> I plan to do a 80 Mile charity ride, known as the "Ride of the Roses" for <span> 
             The Clatterbridge Cancer  Centre.</span>  
             </p>
-            <p>
+            
 
             <div class="row">
-
                <div class="columns download">
                   <p>
                      <a href="#" class="button"><i class="fa fa-download"></i>Download CV</a>
                   </p>
-               </div>
-
+               </div>  <!-- end "columns download --> 
             </div> <!-- end row -->
 
-         </div> <!-- end .main-col -->
+         </div> <!-- end .main-col  /   "three columns"-->
 
-      </div>
+      </div>    <!-- end row --> 
 
    </section> <!-- About Section End-->
 
 
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
+
+
+
+<!--
+    ================================================== 
+   Education Section
+   ================================================== 
+-->
+   <section id="education">
 
       <!-- Education
-      ----------------------------------------------- -->
+      ----------------------------------------------- 
+      -->
       <div class="row education">
 
          <div class="three columns header-col">
@@ -147,14 +152,13 @@
                       throughout my time at university.
                       First year has given me the foundational understanding of computer science and in second year I will be delving
                       deeper into the field, some Modules include:
-                    <ul class="skills">
-                        <li>Adavanced Artificial Intelligence</li>
-                        <li>Swift</li>
-                        <li>Computer networks</li>
-                        <li>Database development</li>
-                        <li>Software engineering</li>
-                    </ul>
-            
+                        <ul class="modules">
+                            <li>Adavanced Artificial Intelligence</li>
+                            <li>Swift</li>
+                            <li>Computer networks</li>
+                            <li>Database development</li>
+                            <li>Software engineering</li>
+                        </ul>
                   </p>
 
                </div>
@@ -183,87 +187,34 @@
       </div> <!-- End Education -->
 
 
-      <!-- Work
-      ----------------------------------------------
-      <div class="row work">
+        <!--------------------------------------------
+        Skills
+        ---------------------------------------------- -->
 
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Awesome Design Studio</h3>
-                  <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
-
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end 
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Super Cool Studio</h3>
-                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
-
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work 
-
-
-       Skills
-      ---------------------------------------------- -->
       <div class="row skill">
 
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
+          <!-- <div class="twelve columns header-col">
+           <h1><span>Skills</span></h1> 
+         </div> -->
 
-         <div class="nine columns main-col">
-           
+         <div class= "twelve columns main-col">
 
-				<div class="barss">
-
-				   <ul class="skills">
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>HTML5, CSS & Javascript</li>
-                        <li>mySQL</li>
-                        <li>Photoshop</li>
-					</ul>
-
-				</div><!-- end skill-bars -->
-
+            <!--<h1 class="skills">
+                Java <br> Python <br> HTML5, CSS & JavaScript <br> mySQL <br> Photoshop <hr>
+            </h1>-->
+            <div class="stats">
+                    <p class="line"> <span class="skill">HTML</span>  <span class="skill">CSS</span>  <span class="skill">JavaScript</span> </p>
+                    <hr>
+                    <p class="line"> <span class="skill">Java</span>  <span class="skill">Swift</span> <span class="skill">Python</span></p>
+                    <hr>
+                    <p class="line"><span class="skill">mySQL</span> </p>
+                </div>
             </div> <!-- main-col end -->
 
       </div> <!-- End skills -->
 
-   </section> <!-- Resume Section End-->
+    </section> <!-- Resume Section End-->
 
-  
 
    <!-- footer
    ================================================== -->
