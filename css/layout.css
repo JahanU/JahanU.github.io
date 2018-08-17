@@ -105,7 +105,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover, active { color: #11ABB0; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -194,7 +194,7 @@ ul#nav li a {
 /* nav animation */
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #00CCCC; }
-ul#nav li a:hover { 
+ul#nav li a:hover, active { 
   -webkit-transform: scale(1.1);
   color: rgb(133, 179, 180);
   }
@@ -402,7 +402,7 @@ ul#nav li a:hover {
   -webkit-transition: -webkit-transform 0.2s, color 1s; /* color fade when hovering over text */
 }
 
-#skills .stats .line:hover {
+#skills .stats .line:hover, active {
   -webkit-transform: scale(1.2);
   color: #0F9095;
 }
