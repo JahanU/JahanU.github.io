@@ -153,15 +153,15 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #525252; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
 
-ul#nav { /* buttons on the nav bar */
+ul#nav { /* nav bar */
    min-height: 48px;
+   height: 55px;
    width: auto;
-   /* center align the menu */
 }
 
 ul#nav li {
@@ -359,14 +359,15 @@ ul#nav li a:hover, active {
 #portfolio {
   background: #c6c7c7;
   padding-top: 90px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
+
 #portfolio h1 {
-  font: 15px/24px 'opensans-semibold', sans-serif;
+  font: 20px/24px 'opensans-semibold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 65px;
   margin-top: -20px;
   color:#fff;
 }
