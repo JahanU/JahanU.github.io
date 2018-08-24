@@ -236,17 +236,17 @@
    #education .main-col { padding-right: 5px; }
    #education h3, #education .info { text-align: center; }
   #education .info {
-     text-align: center;
-     position: relative;
-     font-size: 13px; 
+     text-align: left;
+     font-size: 11px; 
+     width: 100%;
      color: #11ABB0;
     }
 
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   /*#portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
-
+*/
 
    /* footer
    ------------------------------------------------------------------------ */
