@@ -55,6 +55,7 @@ header:before {
    display: inline-block;
    vertical-align: middle;
    height: 100%;
+   
 }
 
 header .banner {
@@ -130,6 +131,7 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -160,25 +162,22 @@ ul#nav { /* buttons on the nav bar */
    min-height: 48px;
    width: auto;
    /* center align the menu */
-   text-align: center;
-   background-color: #303030;
-   opacity: 100;
 }
 
 ul#nav li {
    position: relative;
    list-style: none;
    height: 48px;
-   display: inline;
+   letter-spacing: 3px;
+   display: inline-block;
 }
 
 /* Links */
-
 ul#nav li a {
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
   display: inline-block;
   padding: 8px 13px;
-  line-height: 32px;
+  line-height: 38px;
   text-decoration: none;
   text-align: left;
   color: #fff;
@@ -213,7 +212,7 @@ ul#nav li a:hover, active {
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transition: all 0.5s ease-in-out 0s;  /* dunno why two maybe from different web browsers */
+    -webkit-transition: all 0.5s ease-in-out 0s; 
     transition: all 0.5s ease-in-out 0s;
   }
 
@@ -225,13 +224,7 @@ ul#nav li a:hover, active {
     color:whitesmoke;
   }
 
-.links {
-  width: 3%;
-  height: 2%;
-  margin: 24px 0;
-  padding: 0;
-  font-size: 30px;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);}
+
 
 
   
@@ -344,18 +337,21 @@ ul#nav li a:hover, active {
    white-space: pre;
 }
 
-#education .modules {
+#education .modules li {
+  letter-spacing: 0.5px;
+  font-size: 16px;
   list-style-type: disc;
-}
+  color: #6E7881;
+} 
 
 #education .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
 
+
+
 /* work examples */
-
-
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -425,10 +421,10 @@ ul#nav li a:hover, active {
  -moz-opacity: 0;
  filter:alpha(opacity=0);
 
-  -webkit-transition: opacity 0.3s ease-in-out;
- -moz-transition: opacity 0.3s ease-in-out;
- -o-transition: opacity 0.3s ease-in-out;
- transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.6s ease-in-out;
+ -moz-transition: opacity 0.6s ease-in-out;
+ -o-transition: opacity 0.6s ease-in-out;
+ transition: opacity 0.6s ease-in-out;
 
   position: absolute;
   top: 50%;
@@ -444,6 +440,12 @@ ul#nav li a:hover, active {
   font: 14px/21px 'opensans-bold', sans-serif;
   color: #fff;
 }
+.portfolio, #subheadingSkills, li {
+  color: #00CCCC;
+  letter-spacing: 0.5px;
+  font: 20px;
+} 
+
 .portfolio-item .portfolio-item-meta p {
   font: 12px/18px 'opensans-light', sans-serif;
   color: #c6c7c7;
@@ -464,7 +466,7 @@ ul#nav li a:hover, active {
 
 /* popup modal */
 .popup-modal {
- max-width: 550px;
+ max-width: 500px;
  background: #fff;
  position: relative;
  margin: 0 auto;
@@ -513,11 +515,11 @@ ul#nav li a:hover, active {
 /* content at start */
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
   opacity: 0;
-  -webkit-transition: all 200ms ease-in-out;
- -moz-transition: all 200ms ease-in-out;
- -o-transition: all 200ms ease-in-out;
- -ms-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+ -moz-transition: all 0.5s  ease-in-out;
+ -o-transition: all 0.5s  ease-in-out;
+ -ms-transition: all 0.5s  ease-in-out;
+  transition: all 0.5s  ease-in-out;
 }
 /* content fadein */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
@@ -664,6 +666,7 @@ footer .copyright li {
     margin: 0;
     padding: 0;
     line-height: 24px;
+    color: #A1A1A1;
 }
 .ie footer .copyright li {
    display: inline;
