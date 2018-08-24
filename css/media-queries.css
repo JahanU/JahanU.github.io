@@ -239,8 +239,13 @@
      text-align: center;
      position: relative;
      font-size: 13px; 
+     color: #11ABB0;
     }
 
+   /* Portfolio Section
+   /* ----------------------------------------------------------------- */
+   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   .popup-modal {	max-width: 85%; }
 
 
    /* footer
