@@ -234,11 +234,15 @@
    }
    #education h1 { letter-spacing: 3px;  }
    #education .main-col { padding-right: 5px; }
-   #education h3 { text-align: center; }
+   #education h3 { text-align: center;
+    margin-left: -30px;
+ }
   #education .info {
      text-align: center;
      font-size: 11px; 
      color: #11ABB0;
+     margin-left: -14px;
+
     }
 
    /* Portfolio Section
