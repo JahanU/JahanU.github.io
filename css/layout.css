@@ -32,9 +32,6 @@ width: 100%;
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
-/* particles */
-
-
 
 
 header {
@@ -153,7 +150,10 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #525252; }
+.opaque {
+  background: linear-gradient(#090a0f, #1b2735);
+
+  }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -343,6 +343,12 @@ ul#nav li a:hover, active {
   list-style-type: disc;
   color: #6E7881;
 } 
+#education hr {
+  width: 100%;
+  margin: 18px auto 24px -3px;
+  border-color: #11ABB0;
+  }
+
 
 #education .info span {
    margin-right: 5px;
@@ -783,7 +789,8 @@ header {
   background: transparent;
   border-radius: 50px;
   box-shadow: 59px 1484px #FFF , 1341px 905px #FFF , 373px 1955px #FFF , 941px 1151px #FFF , 1972px 1848px #FFF , 120px 1707px #FFF , 1963px 1000px #FFF , 246px 1280px #FFF , 240px 317px #FFF , 1951px 340px #FFF , 1395px 1898px #FFF , 1480px 969px #FFF , 1517px 1627px #FFF , 1553px 424px #FFF , 592px 694px #FFF , 828px 527px #FFF , 893px 1534px #FFF , 1037px 1499px #FFF , 1988px 730px #FFF , 1053px 1546px #FFF , 1844px 413px #FFF , 531px 673px #FFF , 247px 352px #FFF , 981px 1362px #FFF , 1571px 2000px #FFF , 1834px 1678px #FFF , 1770px 335px #FFF , 1147px 1155px #FFF , 131px 128px #FFF , 776px 490px #FFF , 101px 1090px #FFF , 1818px 1882px #FFF , 216px 872px #FFF , 1273px 133px #FFF , 1313px 348px #FFF , 689px 130px #FFF , 981px 1477px #FFF , 310px 1878px #FFF , 839px 1314px #FFF , 1926px 378px #FFF , 620px 301px #FFF , 864px 637px #FFF , 1281px 180px #FFF , 465px 1112px #FFF , 445px 37px #FFF , 1194px 1473px #FFF , 1066px 148px #FFF , 1818px 402px #FFF , 17px 161px #FFF , 1188px 1361px #FFF , 443px 1036px #FFF , 1100px 1703px #FFF , 1118px 1012px #FFF , 1615px 617px #FFF , 398px 967px #FFF , 113px 398px #FFF , 561px 1238px #FFF , 1701px 663px #FFF , 1625px 1120px #FFF , 281px 754px #FFF , 29px 181px #FFF , 1599px 645px #FFF , 1881px 1421px #FFF , 512px 702px #FFF , 547px 1026px #FFF , 430px 1558px #FFF , 819px 708px #FFF , 110px 988px #FFF , 1666px 1617px #FFF , 1845px 861px #FFF , 739px 1446px #FFF , 1386px 282px #FFF , 661px 1833px #FFF , 265px 586px #FFF , 1612px 749px #FFF , 1326px 1576px #FFF , 1940px 1714px #FFF , 1569px 1467px #FFF , 1639px 1869px #FFF , 243px 1934px #FFF , 284px 1579px #FFF , 1594px 1709px #FFF , 1855px 927px #FFF , 751px 195px #FFF , 642px 568px #FFF , 172px 198px #FFF , 262px 57px #FFF , 1867px 132px #FFF , 332px 1051px #FFF , 1479px 1698px #FFF , 348px 1193px #FFF , 1686px 565px #FFF , 1263px 1150px #FFF , 1701px 212px #FFF , 1571px 1010px #FFF , 1262px 1429px #FFF , 1442px 1810px #FFF , 713px 1727px #FFF , 1957px 1513px #FFF , 1208px 899px #FFF , 59px 1484px #FFF , 59px 1484px #FFF , 59px 1484px #FFF , 59px 1484px #FFF , 59px 1484px #FFF , 59px 1484px #FFF;
-  animation: animStar 110s linear infinite;
+
+  animation: animStar 110s linear infinite; /* what the animation actually does, name, duration, transition and repition */
 }
 #stars3:after {
   content: " ";
@@ -827,10 +834,11 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
-@keyframes animStar {
+@keyframes animStar { /* controls the animation, as in what happens */
   from {
     transform: translateY(0px);
   }
+
   to {
     transform: translateY(-2000px);
   }
