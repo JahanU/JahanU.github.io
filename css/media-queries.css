@@ -62,16 +62,7 @@
    #education h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #education .main-col { padding-right: 1000px; }   
 
-   /* Testimonials Section
-   ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-   #testimonials blockquote p {
-      font-size: 22px;
-      line-height: 46px;      
-   }
+ 
 
     /* Call to Action Section
    ------------------------------------------------------------------- */
@@ -283,6 +274,7 @@
 
 @media only screen and (max-width: 480px) {
 
+  
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: auto; float: none; }
@@ -302,6 +294,20 @@
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
+
+   #skills {
+     height: 100%;
+     padding: 100px 0px 100px 0px;
+   }
+
+   #skills .line  {
+    font-size: 28px;
+    height: 100%;
+    width: 100%;
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+  
 
    /* footer
    ------------------------------------------------------------------------ */
