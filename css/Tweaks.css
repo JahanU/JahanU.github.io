@@ -55,7 +55,6 @@ body {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     overflow: hidden;
-   
 }
 
 
@@ -108,10 +107,4 @@ body {
     margin: 15%;
     padding: 10px;
     border-top: 1px solid black;
-}
-
-.shan {
-    color: fuchsia;
-    font: bold 100px tahoma;    
-    
 }
