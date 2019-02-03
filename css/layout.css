@@ -347,10 +347,17 @@ ul#nav li a:hover, active {
 
 #education .modules li {
   letter-spacing: 0.5px;
-  font-size: 16px;
+  font-size: 14px;
   list-style-type: disc;
   color: #6E7881;
 } 
+
+#education .achievements li {
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  color: #6E7881;
+} 
+
 #education hr {
   width: 100%;
   margin: 18px auto 24px -3px;
@@ -363,7 +370,9 @@ ul#nav li a:hover, active {
    margin-left: 5px;
 }
 
-
+#education p {
+  font-size: 14px;
+}
 
 /* work examples */
 /* ------------------------------------------------------------------ */
@@ -570,6 +579,13 @@ ul#nav li a:hover, active {
   width: 70%;
 }
 
+#skills h6 {
+  text-align: center;
+  font-weight: 100;
+  color: rgb(109, 109, 109);
+  font: 14px 'librebaskerville-regular', serif;
+}
+
 #skills .stats {
 	font-size: 42px;
 	font-family: "proxima-nova", Arial, "Lucida Grande", sans-serif; 
@@ -583,7 +599,7 @@ ul#nav li a:hover, active {
   white-space: pre;
 }
 
-#skills .stats  hr {
+#skills .stats hr {
   width: 100%;
   border-color: #2F2D2E;
   opacity: 0.3;
@@ -597,7 +613,7 @@ ul#nav li a:hover, active {
 }
 
 #skills .stats .line:hover, active {
-  -webkit-transform: scale(1.2);
+  -webkit-transform: scale(1.15);
   color: #0F9095;
 }
 
