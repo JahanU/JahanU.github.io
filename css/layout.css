@@ -12,7 +12,22 @@
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Testimonials Section
+   g. Testimonials Section     <ul class="modules">
+                    <li> Intro to Python </li>
+                    <li> Object-Orientated Programming </li>
+                    <li> App Development (Swift) </li>
+                    <li> Applied Database Management </li>
+                    <li> Software Engineering </li>
+                    <li> Software Development Tools </li>
+                    <li> Data Structures & Algorithms </li>
+                    <li> Database Development </li>
+                    <li> Intro To Artificial Intelligence </li>
+                    <li> Advanced Artificial Intelligence </li>
+                    <li> Computer Networking Principles </li>
+                    <li> Foundation of Computer Science </li>
+                    <li> Analytic Techniques For Computer Science </li>
+                    <li> Computer Systems </li>
+                </ul>
    h. Contact Section
    i. Footer
 
@@ -317,10 +332,23 @@ ul#nav li a:hover, active {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 50px;
 }
+
+#education .EducationTitleHeader {
+  margin-top: -50px;
+  margin-bottom: 75px;
+}
+
+#education .EducationTitle {
+  font: 24px/30px 'opensans-bold', sans-serif;
+}
+
 #education h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+
 }
 #education h2 { 
   font: 28px/1.9em 'librebaskerville-regular', serif;
