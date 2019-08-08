@@ -424,7 +424,7 @@ ul#nav li a:hover:before {
   box-shadow: 0px 1px 8px #888888;
   /* right, down, blur */
   padding: 25px;
-  max-height: 210px;
+  max-height: 249px;
 }
 
 #education .modules li {
@@ -437,7 +437,7 @@ ul#nav li a:hover:before {
 #education .achievements li {
   list-style-type: disc;
   letter-spacing: 0.5px;
-  font-size: 15px;
+  font-size: 13px;
   color: #6E7881;
 }
 
