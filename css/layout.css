@@ -63,7 +63,7 @@ header .banner {
   display: inline-block;
   vertical-align: middle;
   margin: 10% auto;
-  width: 85%;
+  width: 99%;
   text-align: center;
 }
 
@@ -375,7 +375,7 @@ ul#nav li a:hover:before {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 #education .EducationTitleHeader {
@@ -389,7 +389,7 @@ ul#nav li a:hover:before {
 
 #education h1 span {
   border-bottom: 3px solid #11ABB0;
-  padding-bottom: 6px;
+  padding-bottom: -10px;
 }
 
 #education h2 {
@@ -417,6 +417,13 @@ ul#nav li a:hover:before {
   margin-bottom: 18px;
   margin-top: 9px;
   white-space: pre;
+}
+
+#education .portfolio-item .item-wrap {
+  background: #fff;
+  box-shadow: 0px 1px 8px #888888;
+  /* right, down, blur */
+  padding: 25px;
 }
 
 #education .modules li {
@@ -490,7 +497,7 @@ ul#nav li a:hover:before {
 
 .portfolio-item .item-wrap {
   background: #fff;
-  box-shadow: 5px 5px #888888;
+  box-shadow: 0px 1px 15px 3px #888888;
   overflow: hidden;
   position: relative;
   -webkit-transition: all 0.3s ease-in-out;
@@ -570,9 +577,11 @@ ul#nav li a:hover:before {
 #subheadingSkills,
 li {
   color: #00CCCC;
-  letter-spacing: 0.5px;
-  font: 20px;
+  letter-spacing: 0.1px;
+  font: 14px;
 }
+
+
 
 .portfolio-item .portfolio-item-meta p {
   font: 12px/18px 'opensans-light', sans-serif;
@@ -967,7 +976,6 @@ header {
 
 #stars:after {
   content: " ";
-  position: absolute;
   top: 2000px;
   width: 1.6px;
   height: 1.6px;
@@ -985,7 +993,6 @@ header {
 
 #stars2:after {
   content: " ";
-  position: absolute;
   top: 2000px;
   width: 2px;
   height: 2px;
@@ -1006,7 +1013,6 @@ header {
 
 #stars3:after {
   content: " ";
-  position: absolute;
   top: 2000px;
   width: 3px;
   height: 3px;
@@ -1030,21 +1036,6 @@ header {
   line-height: 50px;
   overflow: hidden;
 
-}
-
-#title p {
-  font: 18px/1.9em 'librebaskerville-regular', serif;
-  letter-spacing: 0px;
-  color: #A8A8A8;
-  margin: 0 auto;
-  width: 70%;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
-}
-
-#title span {
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 @keyframes animStar {
