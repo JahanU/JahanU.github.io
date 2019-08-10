@@ -383,6 +383,10 @@ ul#nav li a:hover:before {
   margin-bottom: 75px;
 }
 
+#education .education-subtitle {
+  text-align: left;
+}
+
 #education .EducationTitle {
   font: 24px/30px 'opensans-bold', sans-serif;
 }
