@@ -724,7 +724,7 @@ li {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 50px;
-  margin-top: -90px;
+  margin-top: -80px;
   text-decoration: underline;
   text-decoration-color: #00CCCC;
 
@@ -732,10 +732,10 @@ li {
 
 #skills h2 {
   /* skills */
-  font: 36px/1.9em 'librebaskerville-regular', serif;
-  color: #6E7881;
+  font: 200% 'librebaskerville-regular', serif;
+  color: rgb(70, 146, 204);
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
 }
 
 #skills h6 {
@@ -766,14 +766,14 @@ li {
 #skills .stats .line {
   text-align: center;
   padding: 10px;
-  -webkit-transition: -webkit-transform 0.2s, color 1s;
+  -webkit-transition: -webkit-transform 0.2s, color 1.2s;
   /* color fade when hovering over text */
 }
 
 #skills .stats .line:hover,
 active {
   -webkit-transform: scale(1.15);
-  color: #0F9095;
+  color: #00CCCC;
 }
 
 
