@@ -1,25 +1,3 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
-TOC:
-a. General Styles
-b. Header Styles
-c. About Section
-d. Resume Section
-e. Portfolio Section
-f. Call To Action Section
-g. Testimonials Section
-h. Contact Section
-i. Footer
-
-===================================================================== */
-
-
-
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
@@ -34,8 +12,6 @@ body {
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
-
 
 header {
   position: relative;
@@ -468,6 +444,7 @@ ul#nav li a:hover:before {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
+  background: #ebeeee;
   background: #c6c7c7;
   padding-top: 90px;
   padding-bottom: 80px;
@@ -696,7 +673,7 @@ li {
 /* Skills */
 
 #skills {
-  background: #ebeeee;
+  background: #fff;
   padding-top: 8%;
   padding-bottom: 10%;
   overflow: hidden;
@@ -759,9 +736,15 @@ li {
 }
 
 #skills .stats hr {
-  width: 100%;
-  border-color: #2F2D2E;
+  border-color: rgb(129, 125, 125);
   opacity: 0.3;
+
+  border: none;
+  width: 80%;
+  height: 50px;
+  border-bottom: 0.1px solid rgb(75, 75, 75);
+  box-shadow: 0 10px 10px -10px #333;
+  margin: -50px auto 10px;
 }
 
 #skills .stats .line {
