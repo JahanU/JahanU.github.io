@@ -262,9 +262,10 @@ ul#nav li a:hover:before {
   font: 14px/20px 'opensans-bold', sans-serif;
 }
 
+
 #about a:hover,
 #about a:focus {
-  color: #00CCCC;
+  color: rgb(0, 212, 212);
 }
 
 #about h2 {
@@ -284,29 +285,25 @@ ul#nav li a:hover:before {
   font-size: 18px;
 }
 
+#about .contact-details {
+  width: 125%;
+}
+
+
 #about .profile-pic {
-  position: relative;
+  position: center;
+  margin-left: 35px;
   width: 140px;
   height: 140px;
-  border-radius: 20%;
-}
-
-#about .contact-details {
-  width: 41.66667%;
-}
-
-#about .download {
-  width: 58.33333%;
-  padding-top: 6px;
+  border-radius: 10%;
 }
 
 #about .main-col {
   padding-right: 5%;
 }
 
-#about .download .button {
-  margin-top: 6px;
-  background: #444;
+#about .download {
+  margin-left: 18px;
 }
 
 #about .download .button i {
@@ -314,128 +311,14 @@ ul#nav li a:hover:before {
   font-size: 20px;
 }
 
+
 #about span {
-  color: #00CCCC;
+  color: rgb(190, 190, 190);
 }
 
 #about em {
   color: whitesmoke;
 }
-
-
-
-
-
-/* ------------------------------------------------------------------ */
-/* d. Education Section and skills
-/* ------------------------------------------------------------------ */
-#education {
-  background: #fff;
-  padding-top: 90px;
-  padding-bottom: 40px;
-  overflow: hidden;
-}
-
-#Education a,
-#education a:visited {
-  color: #11ABB0;
-}
-
-#education a:hover,
-#education a:focus {
-  color: #313131;
-}
-
-#education h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-#education .EducationTitleHeader {
-  margin-top: -50px;
-  margin-bottom: 75px;
-}
-
-#education .education-subtitle {
-  text-align: left;
-}
-
-#education .EducationTitle {
-  font: 24px/30px 'opensans-bold', sans-serif;
-}
-
-#education h1 span {
-  border-bottom: 3px solid #11ABB0;
-  padding-bottom: -10px;
-}
-
-#education h2 {
-  font: 28px/1.9em 'librebaskerville-regular', serif;
-  color: #6E7881;
-  margin: 0 auto;
-  width: 70%;
-}
-
-#education h3 {
-  font: 25px/30px 'opensans-bold', sans-serif;
-}
-
-#education .header-col {
-  padding-top: 9px;
-}
-
-#education .main-col {
-  padding-right: 4%;
-}
-
-#education .info {
-  font: 16px/24px 'librebaskerville-italic', serif;
-  color: #6E7881;
-  margin-bottom: 18px;
-  margin-top: 9px;
-  white-space: pre;
-}
-
-#education .portfolio-item .item-wrap {
-  background: #fff;
-  box-shadow: 0px 0.4px 8px #888888;
-  /* right, down, blur */
-  padding: 25px;
-  max-height: 245px;
-}
-
-#education .modules li {
-  letter-spacing: 0.5px;
-  font-size: 14px;
-  list-style-type: disc;
-  color: #6E7881;
-}
-
-#education .achievements li {
-  list-style-type: disc;
-  letter-spacing: 0.5px;
-  font-size: 13px;
-  color: #6E7881;
-}
-
-#education hr {
-  width: 100%;
-  margin: 18px auto 24px -3px;
-  border-color: #11ABB0;
-}
-
-#education .info span {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-#education p {
-  font-size: 14px;
-}
-
 
 
 /* work examples */
@@ -701,7 +584,7 @@ li {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 50px;
-  margin-top: -80px;
+  margin-top: -50px;
   text-decoration: underline;
   text-decoration-color: #00CCCC;
 
@@ -717,10 +600,11 @@ li {
 }
 
 #skills h6 {
+  margin: 50px 0px -50px 0px;
   text-align: center;
   font-weight: 100;
   color: rgb(109, 109, 109);
-  font: 14px 'librebaskerville-regular', serif;
+  font: 18px 'librebaskerville-regular', serif;
 }
 
 #skills .stats {
@@ -730,15 +614,9 @@ li {
   width: 100%;
 }
 
-#skills .stats .skill {
-  letter-spacing: 2px;
-  white-space: pre;
-}
-
 #skills .stats hr {
   border-color: rgb(129, 125, 125);
   opacity: 0.3;
-
   border: none;
   width: 80%;
   height: 50px;
@@ -753,6 +631,7 @@ li {
   -webkit-transition: -webkit-transform 0.2s, color 1.2s;
   /* color fade when hovering over text */
 }
+
 
 #skills .stats .line:hover,
 active {

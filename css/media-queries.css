@@ -1,12 +1,3 @@
-/* ==================================================================
-
-*   Ceevee Media Queries
-*   url: styleshout.com
-*   03-18-2014
-
-/* ================================================================== */
-
-
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
@@ -60,52 +51,15 @@
 
    /* About Section
    ------------------------------------------------------------------- */
-   #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
-   }
-
-   #about .contact-details {
-      width: 50%;
-   }
 
    #about .download {
       width: 50%;
+      margin: 30px 20px -50px 20px;
    }
 
-   /* education Section
-   ------------------------------------------------------------------- */
-   #education h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
+   #about .contact-details {
+      margin: 50px 20px 20px -10px;
    }
-
-   #education .main-col {
-      padding-right: 1000px;
-   }
-
-   /* Call to Action Section
-   ------------------------------------------------------------------- */
-   #call-to-action .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-
-   /* Contact Section
-   ------------------------------------------------------------------- */
-   #contact .section-head {
-      margin-bottom: 30px;
-   }
-
-   #contact .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-
-   #contact .section-head p.lead {
-      font: 17px/33px opensans-light, sans-serif;
-   }
-
 
 }
 
@@ -261,63 +215,6 @@
    #about .main-col {
       padding-right: 15px;
    }
-
-
-   /* education Section
-   --------------------------------------------------------------------- */
-   #education .header-col {
-      padding-top: 0;
-      margin-bottom: -20px;
-   }
-
-   #education h1 {
-      letter-spacing: 3px;
-   }
-
-   #education .main-col {
-      padding: 10px;
-   }
-
-   #education h3 {
-      text-align: center;
-      margin-left: -30px;
-   }
-
-
-   #education .achievements li {
-      text-align: center;
-      font-size: 12px;
-   }
-
-   #education .portfolio-item .item-wrap {
-      padding: 25px;
-      margin: -20px;
-      max-height: 500px;
-
-   }
-
-
-   #education .info {
-      text-align: center;
-      font-size: 11px;
-      color: #11ABB0;
-      width: 100%;
-   }
-
-   #education hr {
-      width: 1000%;
-      margin: 18px auto 24px auto;
-      border-color: #11ABB0;
-   }
-
-   #education p {
-      margin: 10px;
-      padding: 7px;
-      font-size: 14px;
-   }
-
-
-
 
    /* Portfolio Section
    ----------------------------------------------------------------- */
