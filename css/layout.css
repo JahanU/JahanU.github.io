@@ -592,7 +592,7 @@ li {
 
 #skills h2 {
   /* skills */
-  text-shadow: 0.6px 0.6px 2px grey;
+  /* text-shadow: 0.6px 0.6px 2px grey; */
   font: 200% 'librebaskerville-regular', serif;
   color: rgb(255, 255, 255);
   margin: 0 auto;
@@ -621,7 +621,7 @@ li {
   width: 80%;
   height: 50px;
   border-bottom: 0.1px solid rgb(75, 75, 75);
-  box-shadow: 0 10px 10px -10px #333;
+  box-shadow: 0 3px 3px -3px #333;
   margin: -50px auto 10px;
 }
 
